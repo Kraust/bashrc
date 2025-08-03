@@ -5,7 +5,6 @@ export STARSHIP_CONFIG=$HOME/.config/starship/starship.toml
 if [ "$Path" != "" ]; then
     # Windows
     export OPT_BASH_PLATFORM="windows"
-    export Path="$Path;$SCRIPT_DIR/azt"
     export Path="$Path;$HOME/.cargo/bin"
     export Path="$Path;$HOME/.config/bin"
     export Path="$Path;$HOME/bin"
